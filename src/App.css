@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+  min-height: 100vh;
+  padding: 40px 10px;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+}
+
+textarea {
+  margin-left: 92px;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 15px;
+  resize: vertical;
+  background: #ffffffcc;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  letter-spacing: 0.3px;
+  transform: scale(1);
+}
+
+button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🟦 Add Thought Button */
+.add-btn {
+  background: linear-gradient(to right, #007bff, #3399ff);
+  color: white;
+}
+
+/* 🟥 Clear All Button */
+.clear-btn {
+  background: linear-gradient(to right, #dc3545, #ff5e6c);
+  color: white;
+}
+
+/* 🟢 Play/Pause Music Button */
+.music-btn {
+  background: linear-gradient(to right, #20c997, #28dfb7);
+  color: white;
+}
+
+/* 🟡 Pause Music Variant */
+.music-btn.pause {
+  background: linear-gradient(to right, #ffc107, #fbcf33);
+}
+.thought-box {
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 14px;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 30px auto 20px;
+  text-align: center;
+}
