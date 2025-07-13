@@ -31,7 +31,7 @@ mindmirror/
 
 # Live Demo
 
-Visit: [https://your-netlify-site.netlify.app](https://your-netlify-site.netlify.app)
+Visit: (https://tranquil-queijadas-00091a.netlify.app)
 
 # Note
 
